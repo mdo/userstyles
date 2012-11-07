@@ -1,0 +1,24 @@
+.wrapper, .wrapper-narrow, .wrapper-permalink {
+  width: auto;
+}
+
+.dashboard {
+  display: none;
+}
+.content-main {
+  float: none;
+  margin: 0 auto;
+  width: auto;
+  max-width: 600px;
+}
+
+.tweet {
+  padding: 12px 30px;
+}
+.stream-item > .tweet p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.stream-item-header .avatar {
+  left: 30px;
+}
