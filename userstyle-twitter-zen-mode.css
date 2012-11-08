@@ -5,6 +5,7 @@
 .dashboard {
   display: none;
 }
+.profile-header,
 .content-main {
   float: none;
   margin: 0 auto;
