@@ -1,0 +1,58 @@
+/* Tweet modal
+-------------------------------------------------- */
+
+.modal .tweet-form .tweet-content {
+  margin: -15px -15px -45px;
+}
+.modal .tweet-form .tweet-box {
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  height: 125px;
+  padding: 15px 15px 65px;
+  border: 0;
+  border-radius: 0 0 6px 6px;
+}
+
+.modal .tweet-form .tweet-box:focus {
+  border: 0;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05);
+}
+
+
+
+/* DM modals
+-------------------------------------------------- */
+
+/* Hide the bullshit footer line */
+.dm-dialog .twttr-dialog-footer {
+  display: none;
+}
+/* Don't fix the height */
+.dm-dialog .twttr-dialog-inside {
+  height: auto;
+}
+
+/* Improve rendering of list of convos  */
+.dm-thread-list {
+  border-radius: 0 0 6px 6px;
+  overflow: hidden;
+}
+
+/* Stretch out the tweet box appropriately */
+.dm-tweetbox {
+  background-color: transparent;
+  height: auto;
+}
+.dm-dialog .dm-tweetbox .tweet-content .tweet-box {
+  width: 100%;
+  height: 120px;
+}
+
+/* Grayscale convo background and make it an appropro height */
+#dm_dialog_conversation .twttr-dialog-content {
+  height: 300px;
+}
+.dm-convo {
+  height: 270px;
+  background-color: #f9f9f9;
+}
